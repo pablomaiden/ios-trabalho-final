@@ -33,7 +33,11 @@
         self.email.text = [[self.detailItem valueForKey:@"email"] description];
         self.telefone.text = [[self.detailItem valueForKey:@"telefone"] description];
         self.endereco.text = [[self.detailItem valueForKey:@"endereco"] description];
-    }
+        
+        
+        //self.nome_posto_gasolina.text = [[self.detailItem valueForKey:@"nome_posto_gasolina"] description];
+        
+        }
 }
 
 - (void)viewDidLoad {

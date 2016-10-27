@@ -21,6 +21,16 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, copy) NSString *email;
 @property (nullable, nonatomic, copy) NSString *telefone;
 @property (nullable, nonatomic, retain) id image;
+
+
+@property (nullable, nonatomic, copy) NSString *nome_posto_gasolina;
+@property (nullable, nonatomic, copy) NSString *endereco_posto_gasolina;
+@property (nullable, nonatomic, copy) NSString *email_posto_gasolina;
+@property (nullable, nonatomic, copy) NSString *telefone_posto_gasolina;
+@property (nullable, nonatomic, retain) id imagem_bandeira_posto_gasolina;
+
+
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -111,10 +111,7 @@ NSString *error;
 }
 
 - (IBAction)salvar:(id)sender {
-    
-    
-    
-    
+
     
     if(_nomeTextField.text.length && _sobrenomeTextField.text.length) {
         if(!self.contato) {
@@ -126,8 +123,14 @@ NSString *error;
         self.contato.telefone = _telefoneTextField.text;
         self.contato.email = _emailTextField.text;
         self.contato.endereco = _enderecoTextField.text;
-        
         self.contato.image = UIImagePNGRepresentation(self.contatoImage.image);
+
+        self.contato.nome_posto_gasolina  =_nomeTextField.text;
+        self.contato.email_posto_gasolina =_emailTextField.text;
+        self.contato.endereco_posto_gasolina=_enderecoTextField.text;
+        self.contato.telefone_posto_gasolina=_telefoneTextField.text;
+        self.contato.imagem_bandeira_posto_gasolina = UIImagePNGRepresentation(self.contatoImage.image);
+        
         
         NSError * error;
         [self.managedObjectContext save:&error];

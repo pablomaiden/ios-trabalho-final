@@ -21,5 +21,11 @@
 @dynamic telefone;
 @dynamic image;
 
+@dynamic nome_posto_gasolina;
+@dynamic endereco_posto_gasolina;
+@dynamic email_posto_gasolina;
+@dynamic telefone_posto_gasolina;
+@dynamic imagem_bandeira_posto_gasolina;
+
 
 @end

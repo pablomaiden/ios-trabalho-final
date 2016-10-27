@@ -18,6 +18,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *telefone;
 @property (weak, nonatomic) IBOutlet UILabel *endereco;
 
+@property (weak, nonatomic) IBOutlet UILabel *nome_posto_gasolina;
+@property (weak, nonatomic) IBOutlet UILabel *email_posto_gasolina;
+@property (weak, nonatomic) IBOutlet UILabel *endereco_posto_gasolina;
+@property (weak, nonatomic) IBOutlet UILabel *telefone_posto_gasolina;
 
 @end
 

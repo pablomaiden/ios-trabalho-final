@@ -137,7 +137,8 @@
 
 - (void)configureCell:(UITableViewCell *)cell withObject:(NSManagedObject *)object {
     
-    cell.textLabel.text = [object valueForKey:@"nome"];
+    cell.textLabel.text = [object valueForKey:@"nome_posto_gasolina"];
+    //cell.textLabel.text = [object valueForKey:@"nome_posto_gasolina"];
     
     // cell.imageView.layer.cornerRadius = cell.imageView.frame.size.height / 2;
     //cell.imageView.layer.masksToBounds = YES;
